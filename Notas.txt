@@ -19,4 +19,4 @@ LINKS PARA VER LO DEL CAMBIO DE MAPA
 2-https://developers.google.com/maps/documentation/urls/guide
 3-https://developers.google.com/maps/documentation/embed/guide#forming-the-url
 4-https://developers.google.com/maps/documentation/embed/error-messages#billing-and-http-referer-errors
-5-
+5-https://developers.google.com/places/place-id

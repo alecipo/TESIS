@@ -5,6 +5,7 @@
 
     <meta charset="utf-8">
     <link rel="stylesheet" href="estilos2.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"> </script>
     <title>Voluntariado</title>
 </head>
 
@@ -17,23 +18,25 @@
     <div class="main-container">
         <h1>VOLUNTARIADO - Sitio en Construcción</h1>
         <iframe class="map" src="https://www.google.com/maps/d/u/0/embed?mid=1bAkE-0higWmNqmUh9gjws4ZEpM0eei1d" height="480"></iframe>
-        <iframe id="map2" src="https://maps.google.com/maps?q='+YOUR_LAT+','+YOUR_LON+'&hl=es;z=14&amp;output=embed" height="480"></iframe>
-        <iframe id="map3" src="https://www.google.com/maps/embed/v1/search?key=AIzaSyCJZyxRxT8rvAdqcR7Pj5t1HY80uX04fWQ&q=Clinica+Sunchales" height="480"></iframe>
+        <iframe id="map2" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCJZyxRxT8rvAdqcR7Pj5t1HY80uX04fWQ&q=center=-33.8569,151.2152&zoom=18" height="480"></iframe>
+        <iframe id="map3" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCJZyxRxT8rvAdqcR7Pj5t1HY80uX04fWQ&q=place_id:ChIJCRzVVrVFNZQRXp13usY53mo" height="480"></iframe>
     </div>
 </body>
 
 
 <script>
     
-jQuery(document).ready(function($){
-    $('#btnCambiar').on({
+$('#btnCambiar').on({
         'click': function(){        
-            var string1 = "Hotel";
-            var string2 = "Pellegrini";    
-            $('#map3').attr('src','https://www.google.com/maps/embed/v1/search?key=AIzaSyCJZyxRxT8rvAdqcR7Pj5t1HY80uX04fWQ&q=Hotel+Pellegrini');
+            var lat = 50; 
+            var long = 50;
+            //hardcodeado, se obtendrian de la base de datos por id Institucion por ej.
+
+            var place_id = "ChIJEWRVV7VFNZQRAirzMai4lPw"; //Hotel Pellegrini hardcodeado pero se obtendria el place_id de la base de datos por id institucion por ej.
+            $('#map2').attr('src','https://maps.google.com/maps?q='+lat+','+long+'&hl=es;z=14&amp;output=embed');
+            $('#map3').attr('src','https://www.google.com/maps/embed/v1/place?key=AIzaSyCJZyxRxT8rvAdqcR7Pj5t1HY80uX04fWQ&q=place_id:' + place_id);
         }
     });
-});
 
 </script>
 </html>
