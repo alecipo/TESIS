@@ -1,17 +1,71 @@
 <!DOCTYPE html>
+
 <html lang="es">
 <head>
-
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Livvic&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="estilos.css">
     <title>Voluntariado</title>
 </head>
 
 <body>
-    <div class="main-container">
-        <h1>VOLUNTARIADO - Sitio en Construcción</h1>
-        <iframe class="map" src="https://www.google.com/maps/d/u/0/embed?mid=1bAkE-0higWmNqmUh9gjws4ZEpM0eei1d" height="480"></iframe>
-    </div>
+
+    <header>
+        <div class="container">
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="">Inicio</a></li>
+                        <li><a href="">Instituciones</a></li>
+                        <li><a href="">Preguntas Frecuentes</a></li>
+                        <li><a href="">Contacto</a></li>
+                    </ul>             
+                </nav>
+            </div>
+            <a href="">Quiero Ayudar</a>
+        </div>
+    </header>
+
+
+    <!-- FORM CONTACTO -->
+    <section id="contacto">
+        <div class="container">
+            <h3>Contacto</h3>
+            <form action="envio-datos" method="POST">
+                <input type="text" placeholder="Nombre" name="Nombre"> 
+                <input type="email" placeholder="Email" name="Email"> 
+                <textarea placeholder="Mensaje" name="Mensaje"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+    
+    <!-- SECCION PREGUNTAS FRECUENTES -->
+    <section id="FAQ">
+        <div class="main-container">
+            <h3>Preguntas Frecuentes</h3>
+            <div class="contenedor">
+                <ul>
+                    <li>Primera Pregunta</li>
+                    <li>Primera Respuesta</li>
+                </ul>               
+            </div>
+            <div class="contenedor">
+                    <ul>
+                        <li>Segunda Pregunta</li>
+                        <li>Segunda Respuesta</li>
+                    </ul>               
+                </div>
+        </div>
+    </section>
 </body>
 
+<!-- Algun script de prueba -->
+
+<script>
+
+
+</script>
+
 </html>
+

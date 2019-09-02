@@ -1,0 +1,22 @@
+COSAS IMPORTANTES A HACER
+1-Mostrar Necesidades.
+2-Mostrar Instituciones para alguna necesidad elegida.
+3-Mostrar mapa para alguna institucion elegida.
+4-Mostrar form de envio de datos de Voluntario para esa institucion elegida.
+5-Form de CONTACTO (para la municipalidad).
+6-Mostrar FAQ (Preguntas Frecuentes).
+
+
+COSAS A GUARDAR EN LA BASE DE DATOS   
+1-Categorias de Necesidades.
+2-Necesidades.
+3-Instituciones (y su localizacion).
+4-Voluntarios.
+5-Log de "peticiones" de voluntarios y no voluntarios.
+
+LINKS PARA VER LO DEL CAMBIO DE MAPA 
+1-https://stackoverflow.com/questions/31633278/change-embedded-google-maps-location-with-html-links
+2-https://developers.google.com/maps/documentation/urls/guide
+3-https://developers.google.com/maps/documentation/embed/guide#forming-the-url
+4-https://developers.google.com/maps/documentation/embed/error-messages#billing-and-http-referer-errors
+5-

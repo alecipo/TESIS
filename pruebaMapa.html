@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilos2.css">
+    <title>Voluntariado</title>
+</head>
+
+<body> 
+
+    <header>
+        <button id="btnCambiar">Cambiar</button>
+    </header>
+
+    <div class="main-container">
+        <h1>VOLUNTARIADO - Sitio en Construcción</h1>
+        <iframe class="map" src="https://www.google.com/maps/d/u/0/embed?mid=1bAkE-0higWmNqmUh9gjws4ZEpM0eei1d" height="480"></iframe>
+        <iframe id="map2" src="https://maps.google.com/maps?q='+YOUR_LAT+','+YOUR_LON+'&hl=es;z=14&amp;output=embed" height="480"></iframe>
+        <iframe id="map3" src="https://www.google.com/maps/embed/v1/search?key=AIzaSyCJZyxRxT8rvAdqcR7Pj5t1HY80uX04fWQ&q=Clinica+Sunchales" height="480"></iframe>
+    </div>
+</body>
+
+
+<script>
+    
+jQuery(document).ready(function($){
+    $('#btnCambiar').on({
+        'click': function(){        
+            var string1 = "Hotel";
+            var string2 = "Pellegrini";    
+            $('#map3').attr('src','https://www.google.com/maps/embed/v1/search?key=AIzaSyCJZyxRxT8rvAdqcR7Pj5t1HY80uX04fWQ&q=Hotel+Pellegrini');
+        }
+    });
+});
+
+</script>
+</html>
