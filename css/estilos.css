@@ -24,7 +24,7 @@ a{
 header{
     background: url(imgfondo.jpg);
     height: 100vh;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 h3{
