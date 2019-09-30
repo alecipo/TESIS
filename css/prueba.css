@@ -1,0 +1,9 @@
+#carouselExampleIndicators img{
+    width: 100%;
+    max-height: 500px;
+}
+
+.header_menu_1{
+    position: fixed;
+    background-color: white;
+}
