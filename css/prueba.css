@@ -24,3 +24,18 @@
 #Instituciones{
     background-color: #edf0ee;
 }
+
+h3 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+}
+
+#Contacto .contenedor-contacto{
+   display: flexbox;
+   justify-content: space-around;
+}
+
+#Contacto .container pt-190 pb-110{
+    width: 42%;
+}
