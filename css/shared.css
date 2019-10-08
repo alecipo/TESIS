@@ -12,3 +12,21 @@ h3 {
 .header{
     background-color: #fffacf;
 }
+
+.center-block{
+    display: block;
+    margin: auto;
+}
+
+#logo2{
+    height: auto;
+    width: auto;
+    max-height: 72px;
+    max-width: 250px;
+    display: block;
+}
+
+.btnnav{
+    display: inline-block;
+    
+}

@@ -44,3 +44,8 @@ IDEA GENERAL SOBRE EL FRONT END (VA A IR VARIANDO)
 +Carrousel, ocultar si no hay nada.
 +Terminos y condiciones.
 
+REUNION 03/10
+-Probar videos y links de youtube en Carousel.
+-Pasar arriba lo de voluntariado (meter logo) y pasar abajo carousel.
+-Pie de pagina nos tienen que decir que poner.
+-Carrousel promocionando evento hacer algo automatico para que la persona se ofrezca de voluntario para ESE evento especifico. (cateogira Otros)
