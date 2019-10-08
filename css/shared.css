@@ -1,0 +1,14 @@
+h3 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+}
+
+.nav_menu{
+    position: fixed;
+    background-color: #fffacf;
+}
+
+.header{
+    background-color: #fffacf;
+}
