@@ -49,3 +49,13 @@ REUNION 03/10
 -Pasar arriba lo de voluntariado (meter logo) y pasar abajo carousel.
 -Pie de pagina nos tienen que decir que poner.
 -Carrousel promocionando evento hacer algo automatico para que la persona se ofrezca de voluntario para ESE evento especifico. (cateogira Otros)
+
+ICONOS
+-icons8
+-flaticon
+
+PNGs
+-https://pngtree.com/
+-https://www.freepik.com/free-photos-vectors/png
+-https://www.pngfly.com/
+

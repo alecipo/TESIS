@@ -27,6 +27,11 @@ h3 {
 }
 
 .btnnav{
-    display: inline-block;
-    
+    display: inline-block;    
+}
+
+.imgSecciones
+{
+    max-height: 25%;
+    max-width: 20%;
 }
