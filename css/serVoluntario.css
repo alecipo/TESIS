@@ -4,7 +4,7 @@
 }
 
 #Instituciones{
-    background-color: #edf0ee;
+    background-color: var(--blueCustom);
 }
 
 .containerAccordion{
@@ -17,7 +17,7 @@
 
 #Instituciones .stretched-link{
     background-color: transparent;
-    color: darkred;
+    color: var(--greenCustom);
 }
 
 @media (max-width: 800px){
