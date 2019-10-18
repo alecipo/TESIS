@@ -6,11 +6,12 @@ h3 {
 
 .nav_menu{
     position: fixed;
-    background-color: var(--blueCustom);
+    background-color: var(--primaryCustom);
+    padding: 10px 0px;
 }
 
-.header{
-    background-color: var(--yellowCustom);
+.ma{
+    margin: auto;
 }
 
 .center-block{
@@ -37,7 +38,7 @@ h3 {
 }
 
 :root {
-    --blueCustom:#06c;
-    --yellowCustom: #eafa0c;
-    --greenCustom: #1bf807;
+    --primaryCustom:#fff;
+    --thirdCustom: #8aafff;
+    --secondaryCustom: #ffda8a;
 }
