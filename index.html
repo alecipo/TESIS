@@ -70,7 +70,7 @@
         <div class="row align-items-center animatable justify-conten-around">
           <div class="col-3">
             <a href="index.html">
-              <img id="logo2" src="img/logo.png" data-aos="fade-down" data-aos-duration="600" data-aos-delay="600">
+              <img id="logo" src="img/logo.png" data-aos="fade-down" data-aos-duration="600" data-aos-delay="600">
             </a>
           </div>
           <div class="col-lg-6 links medium">
@@ -106,7 +106,8 @@
   <section id="Carousel">
     <div class="container mt-50 mb-50">
       <h1 class="big text-center mb-50" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Título</h1>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-aos="fade-down" data-aos-duration="600" data-aos-delay="300">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-aos="fade-down"
+        data-aos-duration="600" data-aos-delay="300">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -117,9 +118,9 @@
             <img src="img/imgCarousel1.jpeg" class="d-block" alt="...">
           </div>
           <div class="carousel-item">
-              <video class="video-fluid videoCarousel" autoplay loop muted>
-                  <source src="https://mdbootstrap.com/img/video/forest.mp4" type="video/mp4" />
-                </video>
+            <video class="video-fluid videoCarousel" autoplay loop muted>
+              <source src="https://mdbootstrap.com/img/video/forest.mp4" type="video/mp4" />
+            </video>
           </div>
           <div class="carousel-item">
             <img src="img/imgCarousel3.jpeg" class="d-block" alt="...">
@@ -145,6 +146,26 @@
 
 
   </footer>
+
+  <script>
+
+    $(document).ready(function () {
+
+      $(window).scroll(function () {
+        scroll = $(window).scrollTop();
+        if (scroll > 100) {
+          $(".nav_menu").css({ "box-shadow": "rgba(0, 0, 0, 0.22) 6px 1px 1px" });
+        } else {
+          $(".nav_menu").css({ "box-shadow": "0 0 0" });
+        }
+      })
+
+
+
+    })
+
+
+  </script>
 
   <!-- Bootstrap 4.3.1 JS -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
