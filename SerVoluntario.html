@@ -97,25 +97,25 @@
                     data-aos-duration="600" data-aos-delay="0">
                 <h1 class="big text-center" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">Categorías
                 </h1>
-                <a href="#Instituciones"><img src="img/kids.png" class="imgsCategorias"></a>
+                <a href="#Instituciones"><img src="img/kids.png" id="kids" class="imgsCategorias"></a>
             </div>
         </section>
     </header>
 
     <!-- MAPA E INSTITUCIONES -->
     <section id="Instituciones">
-        <div class="container-fluid mt-50 mb-100">
+        <div class="container-fluid mt-50 mb-80">
             <h1 class="big text-center" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
                 Instituciones</h1>
-            <div class="container-fluid mt-50 mb-50 d-flex contMobile">
+            <div class="container-fluid mt-50 d-flex contMobile">
                 <div class="containerAccordion mr-20">
                     <div class="accordion" id="accordionExample">
                         <div class="card">
                             <div class="card-header" id="headingOne">
                                 <h2 class="mb-0 text-center">
-                                    <button class="stretched-link" type="button" data-toggle="collapse"
+                                    <button class="stretched-link" id="inst1" type="button" data-toggle="collapse"
                                         data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Institución 1
+                                        Jardín de Mateo
                                     </button>
                                 </h2>
                             </div>
@@ -197,7 +197,7 @@
                 </div>
                 <div class="containerMap">
                     <iframe id="map"
-                        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCJZyxRxT8rvAdqcR7Pj5t1HY80uX04fWQ&q=place_id:ChIJCRzVVrVFNZQRXp13usY53mo"></iframe>
+                        src="https://www.google.com/maps/embed/v1/view?zoom=16&center=-30.9453849,-61.5601518&key=AIzaSyCJZyxRxT8rvAdqcR7Pj5t1HY80uX04fWQ"></iframe>
                 </div>
             </div>
         </div>
@@ -284,6 +284,7 @@
                 });
             }, false);
         })();
+
     </script>
 
     <!-- Modal -->
@@ -334,6 +335,8 @@
     <script src="js/jquery.maskedinput.min.js"></script>
     <!-- Startup 3 JS (Custom js for all blocks) -->
     <script src="js/script.js"></script>
+    
+    <script src="js/SerVoluntario.js"></script>
 
 </body>
 

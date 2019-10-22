@@ -46,7 +46,7 @@ IDEA GENERAL SOBRE EL FRONT END (VA A IR VARIANDO)
 
 REUNION 03/10
 -Probar videos y links de youtube en Carousel.
--Pasar arriba lo de voluntariado (meter logo) y pasar abajo carousel.
+-Pasar arriba lo de voluntariado (meter logo) y pasar abajo carousel. LISTO
 -Pie de pagina nos tienen que decir que poner.
 -Carrousel promocionando evento hacer algo automatico para que la persona se ofrezca de voluntario para ESE evento especifico. (cateogira Otros)
 
@@ -59,4 +59,17 @@ PNGs
 -https://www.freepik.com/free-photos-vectors/png
 -https://www.pngfly.com/
 
+
+
 -PEDIR IMAGEN DEFAULT PARA CAROUSEL
+.CAROUSEL STRETCH IMAGE
+-ACOMODAR CAROUSEL IMAGENES + VIDEOS
+-Revisar grosor links del nav.
+-Checkbox de TyC tratar de dejarlo lindo.
+-Hover de botones amarillos, ver el color y demas.
+-Ver tema de paleta de colores para el sitio en general.
+-Pasar scripts a files .js
+-Menu mobile barra con Logo
+-Pasar a proyecto MVC
+-Acomodar clases y hojas de estilo.
+-Acomodar Layout
