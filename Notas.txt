@@ -62,7 +62,7 @@ PNGs
 
 
 -PEDIR IMAGEN DEFAULT PARA CAROUSEL
-.CAROUSEL STRETCH IMAGE
+-CAROUSEL STRETCH IMAGE (1140 x 700?)
 -ACOMODAR CAROUSEL IMAGENES + VIDEOS
 -Revisar grosor links del nav.
 -Checkbox de TyC tratar de dejarlo lindo.
