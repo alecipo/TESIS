@@ -1,8 +1,8 @@
 :root {
     --fondoPrimario:#fff;
     --fondoSecundario: #F9FAFC;
-    --colorPrimario: #4a0461;
-    --colorSecundario: #ac9e27;
+    --colorPrimario: #30850f;
+    --colorSecundario: #30a1ec;
     --colorTerciario: #ff0015;
 }
 
@@ -28,7 +28,7 @@ h3 {
 }
 
 #logo{
-    max-height: 75px;
+    max-height: 60px;
     display: block;
     transform: scale(1, 1);
     transition: 0.4s;
