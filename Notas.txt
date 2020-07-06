@@ -73,3 +73,64 @@ PNGs
 -Pasar a proyecto MVC
 -Acomodar clases y hojas de estilo.
 -Acomodar Layout
+
+
+REUNION 08/06
+Pendientes reunion:
+1-Form de voluntario sobre mapa en vez de abajo.
+2-Conseguir diferentes tamaños del logo. (Mariano)
+3-Revisar tamaño de carrousel que pasó de ejemplo y fijar un tamaño para el nuestro. (Mariano)
+4-Revisar carrousel que no cambie de tamaño al cambiar de "diapositiva".
+5-Fijar todos los puntos de las instituciones en el mapa. (Municipalidad)
+6-Generar las clases/tablas en Visual/SQL.
+7-Ver paleta de colores acorde a los colores del logo. VALIDAR
+8-Compra de dominio. (nic.ar)
+9-Imagenes de cada categoria para clickear en cada una. (Mariano)
+10-Menu mobile barra con Logo
+11-Revisar pie de página. Incluir datos Municipalidad y Adesu.
+12-Revisar el captcha.
+13-Preguntas frecuentes
+14-Boton en la pagina de la municipalidad. (A lo ultimo)
+15-Validar texto de ¿Quienes somos?.
+16-Listado categorías organizaciones
+17-Listado instituciones con su categoría / datos de contacto
+18-Manual de administrador (al final)
+19-Paneles de administracion para carga de datos.
+
+Nuestro:
+1-Acomodar proyecto MVC. (Ale)
+2-Revisar grosor links del nav.
+3-Hover de botones amarillos, ver el color y demas.
+4-Sacar el checkbox chiquito en Terminos y Condiciones.
+
+
+REUNION 22/06
+1-Form de voluntario sobre mapa en vez de abajo.
+2-Conseguir diferentes tamaños del logo. (Mariano)
+3-Revisar tamaño de carrousel que pasó de ejemplo y fijar un tamaño para el nuestro. (Mariano)
+4-Revisar carrousel que no cambie de tamaño al cambiar de "diapositiva".
+5-Fijar todos los puntos de las instituciones en el mapa. (Municipalidad)
+6-Listado categorías organizaciones
+7-Ver paleta de colores acorde a los colores del logo. VALIDAR
+8-Compra de dominio. (nic.ar) (Mariano, Osvaldo, Ale)
+9-Imagenes de cada categoria para clickear en cada una. (Mariano)
+10-Revisar pie de página. Incluir datos Municipalidad y Adesu.
+11-Preguntas frecuentes (Revisa Muni)
+12-Boton en la pagina de la municipalidad. (Mariano, Osvaldo, Ale)
+13-Validar texto de ¿Quienes somos?. (Revisa Muni)
+14-Listado instituciones con su categoría / datos de contacto (Revisar Muni)
+15-Manual de administrador (al final) 
+16-Paneles de administracion para carga de datos.
+
+Prioridades:
+1-Revisar si usamos un dominio aparte o si hay que incorporarlo en el frame de la web de la muni. HECHO
+2-Imagenes de cada categoria para clickear en cada una. (Mariano)
+3-Revisar pie de página. Incluir datos Municipalidad y Adesu.
+    a-La página de la muni es https://www.sunchales.gov.ar/ y el icono es diferente.
+4-Revisar tamaño de carrousel que pasó de ejemplo y fijar un tamaño para el nuestro. (Mariano)
+5-Revisar carrousel que no cambie de tamaño al cambiar de "diapositiva".
+
+Nuestro:
+1-Acomodar proyecto MVC. (Ale)
+2-Generar las clases/tablas en Visual/SQL.
+
