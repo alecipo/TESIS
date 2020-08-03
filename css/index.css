@@ -14,21 +14,31 @@
 footer {
     background: #2f2f2f;
     padding:  40px ;
-    text-align: center;
     margin-top: 40px;
+    display: flex;
 }
 
-footer .container {
-    display: flex;
-    justify-content: center;
+footer .redes {
+    text-align: center;
+}
+
+footer .parrafoMuni {
     flex-direction: column;
+    text-align: left;
+    margin: 10px 20px;
+}
+
+footer .parrafoAdesu {
+    flex-direction: column;
+    text-align: right;
+    margin: 10px 20px;
 }
 
 footer img {
-margin: 0 40px;
+margin: 20px 40px;
 }
 
 footer p {
     color: #ffff;
-    margin-top: 40px;
+    margin: 40px;
 }
