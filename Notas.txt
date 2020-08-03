@@ -134,3 +134,13 @@ Nuestro:
 1-Acomodar proyecto MVC. (Ale)
 2-Generar las clases/tablas en Visual/SQL.
 
+
+REUNION 07/06
+-Niñez y Adolescencia.
+-Colores sólidos/uniforme.
+-Personas mayores con ambas.
+-Preguntas frecuentes (Revisa Muni) Ya estaría.
+-Pie de página agregar imágenes.
+-Carrousel
+-Puntos agregados en google map
+-Reemplazar nuevo términos y condiciones.

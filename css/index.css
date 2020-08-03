@@ -7,8 +7,20 @@
 }
 
 .carousel-inner {
-    max-height: 400px;
+    max-height: 576px;
     height: 100%;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 576px;
+    object-fit: cover;
+}
+
+.videoCarousel{
+    width: 100%;
+    height: 576px;
+    object-fit: cover;
 }
 
 footer {
