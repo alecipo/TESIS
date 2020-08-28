@@ -55,3 +55,11 @@ h3 {
 body{
     color: var(--colorPrimario)!important;
 }
+
+.links a{
+    font-size: 120%;
+}
+
+.nav_menu .btn{
+    font-size: 120%
+}
